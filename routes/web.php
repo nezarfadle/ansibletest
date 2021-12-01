@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     //return view('welcome');
-    return "Hello foo from Ansible - Test 1";
+    return "Hello foo from Ansible - Test 2";
 });
 
 Route::get('/foo', function () {
